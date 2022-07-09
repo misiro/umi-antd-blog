@@ -38,7 +38,7 @@ const App: React.FC = () => {
         mode="horizontal"
         items={items}
       />
-      <Content style={{ padding: '0 50px' }}>
+      <Content>
         <Outlet></Outlet>
       </Content>
     </Layout>
